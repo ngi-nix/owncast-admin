@@ -34,6 +34,9 @@ export const DISABLED_USERS = `${API_LOCATION}chat/users/disabled`;
 // Disable/enable a single user
 export const USER_ENABLED_TOGGLE = `${API_LOCATION}chat/users/setenabled`;
 
+// Disable/enable moderation permissions for a single user
+export const USER_MODERATOR_TOGGLE = `${API_LOCATION}chat/users/setmoderator`;
+
 // Get hardware stats
 export const HARDWARE_STATS = `${API_LOCATION}hardwarestats`;
 
@@ -72,6 +75,9 @@ export const SOCIAL_PLATFORMS_LIST = `${NEXT_PUBLIC_API_HOST}api/socialplatforms
 
 // set external action links
 export const EXTERNAL_ACTIONS = `${API_LOCATION}api/externalactions`;
+
+// send a message to the fediverse
+export const FEDERATION_MESSAGE_SEND = `${API_LOCATION}federation/send`;
 
 export const API_YP_RESET = `${API_LOCATION}yp/reset`;
 

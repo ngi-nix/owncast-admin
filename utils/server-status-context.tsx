@@ -44,6 +44,12 @@ export const initialServerConfigState: ConfigDetails = {
     cpuUsageLevel: 3,
     videoQualityVariants: [DEFAULT_VARIANT_STATE],
   },
+  federation: {
+    enabled: false,
+    isPrivate: false,
+    username: '',
+    goLiveMessage: '',
+  },
   externalActions: [],
   supportedCodecs: [],
   videoCodec: '',
